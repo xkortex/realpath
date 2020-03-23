@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yookoala/realpath"
+	"github.com/xkortex/realpath/realpath"
 )
 
 var targets []string

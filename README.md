@@ -11,14 +11,16 @@ with a string of its real absolute path in the system.
 The original version is created by Taru Karttunen in golang-nuts group. You
 may read [the original post about it](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/htns6YWMp7s).
 
-[travis-shield]: https://api.travis-ci.org/yookoala/realpath.svg?branch=master
-[travis-link]: https://travis-ci.org/yookoala/realpath?branch=master
+[travis-shield]: https://api.travis-ci.org/xkortex/realpath.svg?branch=master
+[travis-link]: https://travis-ci.org/xkortex/realpath?branch=master
+
+Fun fact: the default `realpath` on ubuntu barfs if you try to run `realpath $(which go)/..`. 
 
 Installation
 ------------
 
 ```
-go get github.com/yookoala/realpath
+go get github.com/xkortex/realpath
 ```
 
 
